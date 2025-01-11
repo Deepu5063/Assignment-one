@@ -77,6 +77,10 @@ nav li a{
     font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
+    border: none;
+}
+.banner-btn:hover{
+    background-color: #006a5050;
 }
 /* Banner section Done */
 /* The vision of future start */
@@ -117,6 +121,9 @@ nav li a{
     transition: 0.3s;
     cursor: pointer;
  }
+ .dbutton:hover{
+    background-color: #548ff560;
+ }
  .card2{
     /* width: 400px;
     height: 385px; */
@@ -141,6 +148,9 @@ nav li a{
     transition: 0.3s;
     cursor: pointer;
  }
+ .gbutton:hover{
+    background-color: #09a15d5e;
+ }
  .card3{
     /* width: 400px;
     height: 385px; */
@@ -163,6 +173,10 @@ nav li a{
     font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
+    border: none;
+ }
+ .mbutton:hover{
+    background-color: #ffc43944;
  }
  .recent{
     padding: 44px 200px;
@@ -191,6 +205,10 @@ nav li a{
     border: none;
     transition: 0.3s;
     cursor: pointer;
+ }
+ .recent .card .right .cardbtn:hover{
+    background-color: #5ac7ac;
+    color: rgb(8, 8, 8);
  }
  /* donate */
  .donate{
@@ -293,7 +311,34 @@ nav li a{
     background-color: #60b9a3;
     color: black;
  }
- 
+ /* subscrive done */
+ .yunos{
+    padding: 44px 200px;
+    margin: 0 auto;
+ }
+ .yunos .wrapper{
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+ }
+ .yunos .wrapper p{
+  background-repeat: no-repeat;
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.8);
+  background-image: url(../image/quote-bg.png);
+ }
+ .yunos .wrapper h2{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .yunos .wrapper h3{
+    padding-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+ }
  
 
 
