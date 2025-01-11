@@ -1,10 +1,17 @@
 /* Nav style */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Fira Sans", serif;
+}
+body{
+    background-color: #f1f1f3;
+}
 nav{
   display: flex; 
   justify-content: space-between; 
   margin: 0px 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 nav ul{
     list-style: none;
@@ -24,14 +31,14 @@ nav li a{
 /* Nav style complete */
 /* Banner section */
 .banner{
-    margin-left: 100px;
+    margin-left: 200px;
     align-items: center;
     display: FLEX;
     margin-top: 0px;
     background-color: #C6E4D6;
     border-radius: 16px;
     justify-content: space-between;
-    margin-right: 100px;
+    margin-right: 200px;
     height: 450px;
 }
 .text1{
@@ -67,3 +74,114 @@ nav li a{
     font-weight: bold;
 }
 /* Banner section Done */
+/* The vision of future start */
+#vision-box{
+    /* width: 274px; */
+    /* margin-left: 100px; */
+    padding: 44px 200px;
+    margin: 0 auto;
+}
+.allcard{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    /* width: 400px;
+    height: 385px; */
+    padding: 32px;
+    border-radius: 15px;
+    background-color: #81B4FC;
+    /* margin-right: 1100px; */
+}
+
+ .digital{
+    margin-left: 40px;
+    margin-top: 40PX;
+    font-size: 18px;
+ }
+ .dbutton{
+    background-color: #5490F5;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+ }
+ .card2{
+    /* width: 400px;
+    height: 385px; */
+    padding: 32px;
+    border-radius: 15px;
+    background-color: #C6E4D6;
+    /* margin-right: 1100px; */
+}
+.green{
+    margin-left: 40px;
+    margin-top: 40PX;
+    font-size: 18px;
+ }
+ .gbutton{
+    background-color: #09A15C;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+ }
+ .card3{
+    /* width: 400px;
+    height: 385px; */
+    padding: 32px;
+    border-radius: 15px;
+    background-color: #F7EBCF;
+    /* margin-right: 1100px; */
+}
+.modern{
+    margin-left: 40px;
+    margin-top: 40PX;
+    font-size: 18px;
+ }
+ .mbutton{
+    background-color: #FFC239;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+ }
+ .recent{
+    padding: 44px 200px;
+    margin: 0 auto;
+ }
+ .recent .card{
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    padding: 48px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+ }
+ .recent .card .left .coverpic{
+    border-radius: 24px;
+ }
+ .recent .card .right{
+    margin-left: 32px;
+ }
+ .recent .card .right .cardbtn{
+    background-color: #006A50;
+    color: white;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 8px;
+    border: none;
+ }
+ 
+
+ 
+ 
+
+
