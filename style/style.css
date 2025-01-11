@@ -3,6 +3,9 @@
 *{
     font-family: "Fira Sans", serif;
 }
+.text-center{
+    text-align: center;
+}
 body{
     background-color: #f1f1f3;
 }
@@ -179,7 +182,48 @@ nav li a{
     border-radius: 8px;
     border: none;
  }
- 
+ .donate{
+    margin: 0 auto ;
+    padding: 44px 200px;
+ }
+ .donate .all-cart{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+ }
+ .donate .all-cart .cart{
+    padding: 50px;
+    border-radius: 10px;
+    bottom: 30px;
+    background-color: #c6e4d6;
+ }
+ .donate .all-cart .cart h1{
+    font-size: 40px;
+    font-weight: 70px;
+ }
+ .donate .field{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+ }
+ .donate .field input{
+    border-radius: 5px;
+    border: none;
+    margin: auto 60px;
+    padding: 20px;
+    text-align: center;
+ }
+ .donate .field .donatebtn{
+    background-color: #006A50;
+    color: white;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+ }
 
  
  
